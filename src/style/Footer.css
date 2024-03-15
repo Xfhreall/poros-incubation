@@ -1,0 +1,15 @@
+footer {
+  height: 10vh;
+  color: #fff;
+  display: flex;
+  background-color: #28aa49;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    justify-content: center;
+  }
+}

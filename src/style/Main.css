@@ -1,0 +1,9 @@
+
+section {
+    height: 70vh;
+    display: flex;
+    padding: 3vh;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }

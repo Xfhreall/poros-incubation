@@ -1,0 +1,50 @@
+.grid {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  order: 1;
+  padding-left: 6px;
+}
+
+.grid div {
+  width: 91vh;
+}
+
+#box:hover {
+  border: 1px solid black;
+}
+
+.boxIn1 {
+  order: 1;
+}
+.boxIn2 {
+  order: 2;
+}
+
+.box3 {
+  width: 195vh;
+  order: 2;
+}
+.box4 {
+  width: 195vh;
+  order: 3;
+}
+
+#box {
+  height: 7.5vh;
+  border-radius: 8px;
+  text-align: center;
+  padding: 6vh;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+#box:hover {
+  border: 1px solid white;
+}
